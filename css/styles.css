@@ -1,0 +1,22 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing: border-box;
+
+}
+
+:root{
+
+    --fuentePrincipal: 'Baloo da 2', 'sans-serif';
+    --anchomaximo:1100px;
+}
+
+
+
