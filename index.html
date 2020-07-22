@@ -5,60 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo's Ele</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
     <!-- incio de header -->
-    <div class="wrapper"></div>
-    <nav>
-        <div class="container flex">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo2.jpg" alt="Logo">
-                </a>
+    <header>
+        <div class="wrapper"></div>
+        <nav>
+            <div class="container flex">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo2.jpg" alt="Logo">
+                    </a>
+                </div>
+                <div class="navegador">
+                    <ul>
+                        <li><a href="index.html" class="activo">Home</a></li>
+                        <li><a href="ourblog.html">Tareas</a></li>
+                        <li><a href="menu.html">Perfil</a>
+                        <li>
+                    </ul>
+                </div>
             </div>
-            <div class="navegador">
-                <ul>
-                    <li><a href="index.html" class="activo">Home</a></li>
-                    <li><a href="ourblog.html">Tareas</a></li>
-                    <li><a href="menu.html">Perfil</a>
-                    <li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- fin de header -->
 
     <!-- incio de main -->
-
-    <div class="container">
-        <div class="insertar">
-            <input type="text" id="insertarTarea" placeholder="Introduce una tarea ">
+    <main>
+        <div class="container">
+            <div class="insertar">
+                <input type="text" id="tarea" placeholder="Introduce una tarea ">
+            </div>
+            <div class="opciones">
+                <form action="">
+                    <select id="prioridad">
+                        <option value="">Prioridad de la tarea</option>
+                        <option value="urgente">Urgente</option>
+                        <option value="diaria">Diaria</option>
+                        <option value="semanal">Semanal</option>
+                        <option value="mensual">Mensual</option>
+                    </select>
+                </form>
+            </div>
+            <div class="botonGuardar">
+                <button type="button" class="btn btn-primary" id="guardar">Guardar</button>
+            </div>
         </div>
-        <div class="opciones">
-            <form action="">
-                <select id="prioridad">
-                    <option value="">Prioridad de la tarea</option>
-                    <option value="urgente">Urgente</option>
-                    <option value="diaria">Diaria</option>
-                    <option value="semanal">Semanal</option>
-                    <option value="mensual">Mensual</option>
-                </select>
-            </form>
-        </div>
-        <div class="botonGuardar">
-            <button type="button" class="btn btn-primary" id="guardar">Guardar</button>
-        </div>
+    </main>
 
-
-    </div>
+    <script src="js/funciones.js"></script>
+    <script src="js/eventos.js"></script>
 
     <!-- fin de main -->
+
+
+
+
+
+
     <!-- incio de footer -->
+    <footer>
+        <div class="container">
+            <p> 2020 <span> Las Tareas Mejor Hacerlas</span> con To Do's Ele </p>
+        </div>
+    </footer>
     <!-- fin de footer -->
 
+
+
 </body>
+
 
 </html>
