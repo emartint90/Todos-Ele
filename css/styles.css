@@ -28,39 +28,97 @@ body {
     font-family: var(--fuentePrincipal);
     font-size: 1em;
 }
+
 /* Incio Header */
-
-
-
-
 
 /* Fin Header */
 
 /* Incio de Main */
+ body {
 
+    margin-top: 100px;
+
+ }
 .container {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right:300px;
+    margin-top:20px;
+    padding: 2px;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+
+.prioridad option{
+    font-family: var(--fuentePrincipal);
+
+}
+
+.pintarTarea{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px, solid black;
     margin-left: 300px;
     margin-right:300px;
     margin-top:20px;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+    padding: 2px;
+ 
+}
+
+.red{
+    background-color: tomato;
+}
+
+.green{
+    background-color:palegreen;
+}
+
+.blue{
+    background-color:aqua;
+}
+
+.yellow{
+    background-color:goldenrod;
+}
+
+.containerBuscar {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right:300px;
+    margin-top:20px;
+    padding: 2px;
+    justify-content: space-around;
+
+}
+.btn btn-light {
+    color : greenyellow;
+}
+
+input{
+    border: 5px solid palegreen;
+}
+form {
+    border: 5px solid palegreen;
+}
+.contenedor{
+    width: ;
+
+
 }
 
 
 /* Fin Main */
 
 
-
-
-
 /* Inicio Footer */
 
 footer{
-    background-color: greenyellow;
+    background-color:palegreen;
     padding: 1.250em 0.625em;
-    text-align: center;
     position:fixed;
     bottom:0;
     width: 100%;  
